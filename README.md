@@ -18,3 +18,5 @@ npm start
 ## Tutorial on Medium
 
 https://medium.freecodecamp.org/how-to-build-blazing-fast-rest-apis-with-node-js-mongodb-fastify-and-swagger-114e062db0c9
+
+https://chinese.freecodecamp.org/forum/t/topic/128

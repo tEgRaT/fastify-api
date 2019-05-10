@@ -1,0 +1,29 @@
+{
+  "name": "fastify-api",
+  "version": "1.0.0",
+  "description": "A blazing fast REST APIs with Node.js, MongoDB, Fastify and Swagger.",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tEgRaT/fastify-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tEgRaT/fastify-api/issues"
+  },
+  "homepage": "https://github.com/tEgRaT/fastify-api#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "boom": "^7.3.0",
+    "fastify": "^2.3.0",
+    "fastify-swagger": "^2.3.2",
+    "mongoose": "^5.5.6"
+  }
+}
