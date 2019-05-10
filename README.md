@@ -20,3 +20,15 @@ npm start
 https://medium.freecodecamp.org/how-to-build-blazing-fast-rest-apis-with-node-js-mongodb-fastify-and-swagger-114e062db0c9
 
 https://chinese.freecodecamp.org/forum/t/topic/128
+
+## To Start MongoDB on Win32 System Like Mine
+
+``` cmd
+mongod.exe --storageEngine=mmapv1 --dbpath d:/MongoDB
+```
+
+## To Start This Project on Win32 System Like Mine
+
+``` bash
+./node_modules/nodemon/bin/nodemon.js ./src/index.js
+```
